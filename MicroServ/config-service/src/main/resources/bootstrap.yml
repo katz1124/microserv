@@ -6,9 +6,10 @@ spring:
     config:
       server:
         git:
+          default-label: main
           uri: https://github.com/katz1124/microserv.git
-          searchPath: config-data
-          username: @{GIT_USER}
+          searchPath: MicroServ/config-data
+          username: ${GIT_USER}
           password: ${GIT_PASSWORD}
   security:
     user:
