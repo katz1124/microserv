@@ -1,5 +1,6 @@
 server:
   port: 8099
+  waitTimeInMsWhenSyncIsEmpty: 0
 
 eureka:
   instance:
